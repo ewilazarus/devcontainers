@@ -1,5 +1,4 @@
-#FROM debian:${templateOption:imageVariant}-slim
-FROM debian:bookworm-slim
+FROM debian:${templateOption:imageVariant}-slim
 
 # Update package and install basic tools
 RUN apt update && apt install -y \
