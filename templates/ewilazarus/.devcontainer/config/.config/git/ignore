@@ -1,0 +1,9 @@
+# Project configurations
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# VSCode
+.vscode
+
+# Vim sessions
+Session.vim

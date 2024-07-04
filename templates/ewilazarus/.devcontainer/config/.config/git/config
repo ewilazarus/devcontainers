@@ -1,0 +1,15 @@
+[user]
+	name = Gabriel Lima
+	email = gvclima@gmail.com
+[pull]
+	default = current
+[push]
+	default = current
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = true
+[core]
+	excludesFile = ~/.config/git/ignore
+[url "git@github.com:"]
+	insteadOf = https://github.com/

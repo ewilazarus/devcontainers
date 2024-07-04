@@ -1,0 +1,9 @@
+{
+    "name": "Ewilazarus' Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "postAttachCommand": "greet",
+    "remoteUser": "ewilazarus",
+    "workspaceFolder": "/workspace"
+}

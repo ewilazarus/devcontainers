@@ -1,0 +1,21 @@
+{
+    "id": "ewilazarus",
+    "version": "0.1.0",
+    "name": "Ewilazarus' Dev Container Template",
+    "description": "A devcontainer template with pre-installed CLI tools that I use on a daily basis.",
+    "documentationURL": "https://github.com/ewilazarus/devcontainers/blob/main/README.md",
+    "licenseURL": "https://github.com/ewilazarus/devcontainers/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Debian slim variant",
+            "proposals": [
+                "bookworm"
+            ],
+            "default": "bookworm"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
