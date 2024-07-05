@@ -1,6 +1,6 @@
 {
     "id": "ewilazarus",
-    "version": "0.4.0",
+    "version": "0.5.0",
     "name": "Ewilazarus' Dev Container Template",
     "description": "A devcontainer template with pre-installed CLI tools that I use on a daily basis.",
     "documentationURL": "https://github.com/ewilazarus/devcontainers/blob/main/README.md",

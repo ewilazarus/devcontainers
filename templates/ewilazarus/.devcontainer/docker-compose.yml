@@ -5,6 +5,7 @@ services:
     - ..:/workspace:cached
     - shell-history:/home/ewilazarus/.config/zsh/.zhistory
     command: /bin/sh -c "while sleep 1000; do :; done"
+    user: ewilazarus
 
 volumes:
   shell-history:
