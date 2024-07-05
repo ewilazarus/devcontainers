@@ -8,6 +8,7 @@ A devcontainer template with pre-installed CLI tools that I use on a daily basis
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | imageVariant | Debian slim variant | string | bookworm |
+| projectName | The name of the project | string | my-project |
 
 
 
