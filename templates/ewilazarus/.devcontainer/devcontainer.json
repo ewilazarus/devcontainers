@@ -1,8 +1,7 @@
 {
-    "name": "Ewilazarus' Dev Container",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
+    "name": "${templateOption:projectName}",
+    "dockerComposeFile": ["docker-compose.yml"],
+    "service": "devcontainer",
     "postAttachCommand": "greet",
     "remoteUser": "ewilazarus",
     "workspaceFolder": "/workspace"

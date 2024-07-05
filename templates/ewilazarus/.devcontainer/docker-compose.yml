@@ -1,0 +1,10 @@
+services:
+  devcontainer:
+    build: .
+    volumes:
+    - ..:/workspace:cached
+    - shell-history:/home/ewilazarus/.config/zsh/.zhistory
+    command: /bin/sh -c "while sleep 1000; do :; done"
+
+volumes:
+  shell-history:
