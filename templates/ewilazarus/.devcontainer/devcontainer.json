@@ -4,5 +4,6 @@
     "service": "devcontainer",
     "postAttachCommand": "greet",
     "remoteUser": "ewilazarus",
-    "workspaceFolder": "/workspace"
+    "workspaceFolder": "/workspace",
+    "shutdownAction": "stopCompose"
 }
