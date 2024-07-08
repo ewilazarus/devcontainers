@@ -69,3 +69,8 @@ alias gri="git rebase -i"
 alias gdiff="git difftool"
 alias gwip="git add . && git commit -m '**WIP'"
 alias gnvm="git checkout -- . && git clean -df"
+
+# Misc
+alias l="ls"
+alias ll="ls -al"
+
